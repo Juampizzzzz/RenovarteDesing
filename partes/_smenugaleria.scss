@@ -1,0 +1,18 @@
+
+#navbarNavAltMarkup{
+    justify-content: start;
+    background-color: black;
+    #navbar-nav{
+        .nav-link{
+            font-size: xx-large;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            margin-left: 20%;
+            &:hover {
+                color: tomato;
+            }
+        }
+    }
+}
+
+

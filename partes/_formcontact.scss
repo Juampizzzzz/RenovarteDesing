@@ -1,0 +1,11 @@
+
+
+.Contactanosfondo {
+    background-image: linear-gradient(pink, violet, purple);
+    padding: 20px;
+    input{
+        &:focus {
+        font-size: xx-large;
+        }
+    }
+}

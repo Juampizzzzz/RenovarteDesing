@@ -1,0 +1,45 @@
+.jardines {
+    width: auto;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    #secJardin {
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Luxurious Roman', cursive;
+        color: gold;
+    }
+}
+.contenedorJardin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    align-content: center;
+    .imgJardines {
+        width: 500px;
+        height: 250px;
+        border: solid white;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }    
+    .jardinNombre {
+        font-size: 30px;
+        text-align: center;
+        color: gold;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+

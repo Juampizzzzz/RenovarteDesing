@@ -1,0 +1,603 @@
+/*tipos de letra*/
+/*font-family: 'Licorice', cursive;
+font-family: 'Montserrat', sans-serif;*/
+/* font-family: 'Luxurious Roman', cursive; */
+/* font-family: 'The Nautigal', cursive; */
+/* font-family: 'Cinzel', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Island+Moments&family=Licorice&family=Luxurious+Roman&family=Montserrat:wght@300&family=The+Nautigal&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+/* HEADER */
+.logoReno {
+  width: 175px;
+  height: auto;
+  border-radius: 100%;
+  animation-name: brinco;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes brinco {
+  50% {
+    transform: rotate(20deg);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(-20deg);
+    border-radius: 100%;
+  }
+}
+
+#navbarNavDropdown {
+  display: flex;
+  justify-content: end;
+}
+
+#nav-link {
+  color: white;
+  font-size: 60px;
+  font-family: 'The Nautigal', cursive;
+  font-weight: lighter;
+}
+
+#nav-link:hover {
+  color: #da3c56;
+  transition: 1s;
+}
+
+/* MAIN Home */
+main {
+  width: 100%;
+  background-color: white;
+}
+
+main .tituloQuienes {
+  font-size: 40px;
+  color: gold;
+  background-color: black;
+  text-align: center;
+}
+
+main .tituloComo {
+  font-size: 40px;
+  color: gold;
+  background-color: black;
+  text-align: center;
+}
+
+main article img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  min-height: 100px;
+  padding: 25px;
+}
+
+main .videoYT {
+  width: 100%;
+  height: 600px;
+  padding: 25px;
+}
+
+main .data {
+  font-size: large;
+  color: black;
+  padding-top: 15px;
+}
+
+/* inicio footer Todos */
+footer {
+  background-image: linear-gradient(#ffea73, #8f8f8f, white);
+  padding: 30px;
+}
+
+footer .imgFooter {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: tomato;
+}
+
+/* Fin footers todos */
+.Subtitulos {
+  color: #7bff76;
+  background-color: black;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  animation-name: parpadear;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes parpadear {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    color: #f50303;
+  }
+  50% {
+    color: #b4e409;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#navItem {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  font-size: 14px;
+}
+
+#navLink {
+  font-size: 30px;
+  line-height: auto;
+  color: silver;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#navLink #navLink:hover {
+  color: black;
+  transition: all 1s;
+  font-size: 30px;
+}
+
+.nav ul {
+  position: absolute;
+  display: none;
+}
+
+.nav ul li {
+  display: block;
+}
+
+.nav li:hover ul {
+  display: block;
+}
+
+.navLinkTienda {
+  background-color: black;
+  text-decoration: none;
+  color: pink;
+  font-size: 30px;
+  margin: 100px;
+  line-height: 60px;
+}
+
+.navLinkTienda:hover {
+  color: black;
+  transition: all 1s;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10%;
+}
+
+#sillones {
+  background-color: gold;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+article .sillon1 {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  min-height: 100px;
+  padding: 25px;
+}
+
+#contenedorInfoSillones .titulos {
+  padding-top: 25px;
+}
+
+#contenedorInfoSillones .dataSillon {
+  font-size: large;
+  color: black;
+  padding-top: 25px;
+}
+
+.tiposTelas {
+  width: 100%;
+  height: auto;
+  background-color: thistle;
+  padding-left: 25px;
+}
+
+#secObrasArte {
+  background-color: gold;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.dataArte {
+  font-size: x-large;
+  color: black;
+}
+
+.precio {
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.firma {
+  font-family: 'The Nautigal', cursive;
+  text-align: right;
+  font-size: 60px;
+}
+
+#cuadro1 {
+  background-color: #fbffd2;
+}
+
+#cuadro2 {
+  background-color: #fbffd2;
+}
+
+#cuadro3 {
+  background-color: #fbffd2;
+}
+
+#cuadro4 {
+  background-color: #f1dade;
+}
+
+#cuadro5 {
+  background-color: #f1dade;
+}
+
+#secAlfombras {
+  background-color: gold;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.dataAlfombra {
+  padding-left: 25px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedorAlfombras {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(4, 20%);
+  justify-content: start;
+  align-content: center;
+  padding: 25px;
+}
+
+.contenedorAlfombras .img1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-image: url(/imagenes/alf1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img2 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  background-image: url(/imagenes/alf2.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img3 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background-image: url(/imagenes/alf3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-image: url(/imagenes/alf4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img5 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-image: url(/imagenes/alf5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img6 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-image: url(/imagenes/alf6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img7 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background-image: url(/imagenes/alf7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img8 {
+  grid-column: 2/4;
+  grid-row: 4/5;
+  background-image: url(/imagenes/alf8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorAlfombras .img {
+  border: 2px solid white;
+}
+
+.contenedorAlfombras .img:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+  filter: sepia(1);
+}
+
+.Contactanosfondo {
+  background-image: linear-gradient(pink, violet, purple);
+  padding: 20px;
+}
+
+.Contactanosfondo input:focus {
+  font-size: xx-large;
+}
+
+.formuRegis {
+  width: 100%;
+  height: auto;
+}
+
+.formuRegis .registrate {
+  background-image: url(../imagenes/registrateee.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  padding: 20px;
+}
+
+.formuRegis .registrate .Leyenda {
+  color: black;
+  font-size: large;
+}
+
+.formuRegis .registrate label {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+#navbarNavAltMarkup {
+  justify-content: start;
+  background-color: black;
+}
+
+#navbarNavAltMarkup #navbar-nav .nav-link {
+  font-size: xx-large;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 20%;
+}
+
+#navbarNavAltMarkup #navbar-nav .nav-link:hover {
+  color: tomato;
+}
+
+.jardines {
+  width: auto;
+  height: 70px;
+  background-color: white;
+}
+
+.jardines #secJardin {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Luxurious Roman', cursive;
+  color: gold;
+}
+
+.contenedorJardin {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 25px;
+  align-content: center;
+}
+
+.contenedorJardin .imgJardines {
+  width: 500px;
+  height: 250px;
+  border: solid white;
+}
+
+.contenedorJardin .imgJardines:hover {
+  transform: scale(1.1);
+}
+
+.contenedorJardin .jardinNombre {
+  font-size: 30px;
+  text-align: center;
+  color: gold;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.terrazas {
+  width: auto;
+  height: 70px;
+  background-color: white;
+}
+
+.terrazas #secTerrazas {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Luxurious Roman', cursive;
+  color: gold;
+}
+
+.divTerrazas1 .pTerrazas {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.divTerrazas1 h3 {
+  font-size: xx-large;
+  color: silver;
+  text-align: start;
+  padding: 10px;
+}
+
+.contenedorTerrazas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.contenedorTerrazas .artTerrazas {
+  display: flex;
+}
+
+.contenedorTerrazas .imgTerrazas {
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+}
+
+.contenedorTerrazas .terrazaNombre {
+  color: gold;
+  padding-left: 15px;
+  font-size: x-large;
+  width: 10%;
+  padding-top: 20px;
+}
+
+#secToilets {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Luxurious Roman', cursive;
+  color: gold;
+  background-color: white;
+}
+
+.div1 {
+  display: flex;
+}
+
+.toi {
+  height: 30%;
+  border: solid 2px white;
+  background-color: #f1dade;
+}
+
+.toilets-1 {
+  width: 15em;
+  font-size: 30px;
+}
+
+.toilets-2 {
+  width: 30em;
+  font-size: 30px;
+}
+
+.toilets-3 {
+  width: 45em;
+  font-size: 30px;
+}
+
+.bucle1 {
+  font-size: 50px;
+  background-color: #1aff1a;
+  border: solid 2px black;
+}
+
+.bucle2 {
+  font-size: 50px;
+  background-color: #b3ffb3;
+  border: solid 2px black;
+}
+
+.bucle3 {
+  font-size: 50px;
+  background-color: white;
+  border: solid 2px black;
+}
+
+.alfImg {
+  width: 40%;
+  height: 300px;
+  background-color: crimson;
+  border: solid black 3px;
+}
+
+.alf4-icon {
+  background-image: url(../imagenes/alf4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alf2-icon {
+  background-image: url(../imagenes/alf2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alf3-icon {
+  background-image: url(../imagenes/alf3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,47 @@
+#secToilets{
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Luxurious Roman', cursive;
+        color: gold;
+        background-color: white;
+    }
+    .div1{
+        display: flex;
+    }
+
+.toi{
+    height: 30%;
+    border: solid 2px white;
+    background-color: $color1;
+}
+
+@for $i from 1 through 3 {
+    .toilets-#{$i}{
+        width: 15em * $i;
+        font-size: 30px;
+    }
+}
+
+// Bucles
+@for $b1 from 1 to 4 {
+    .bucle#{$b1} {
+        font-size: 50px;
+        background-color: lighten(green, $b1 * 30%);
+        border: solid 2px black;
+    }  
+}
+// each
+.alfImg{
+    width: 40%;
+    height: 300px;
+    background-color: crimson;
+    border: solid black 3px;
+}
+@each $alfombra in alf4, alf2, alf3 {
+    .#{$alfombra}-icon {
+        background-image: url(../imagenes/#{$alfombra}.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,32 @@
+#sillones {
+    background-color: gold;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+article .sillon1 {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 25px;
+
+}
+#contenedorInfoSillones{
+    .titulos {
+        padding-top: 25px;
+    }
+    .dataSillon {
+        font-size: large;
+        color: black;
+        padding-top: 25px;
+    }
+}
+
+.tiposTelas {
+    width: 100%;
+    height: auto;
+    background-color: thistle;
+    padding-left: 25px;
+}

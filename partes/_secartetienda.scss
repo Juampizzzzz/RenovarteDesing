@@ -1,0 +1,74 @@
+#secObrasArte {
+    background-color: gold;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+
+}
+.dataArte {
+    font-size: x-large;
+    color: black;
+}
+.precio {
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.firma {
+    font-family: 'The Nautigal', cursive;
+    text-align: right;
+    font-size: 60px;
+}
+
+// ingreso de If else
+$artista: Covaleda;
+#cuadro1{
+    @if $artista == Suarez{
+        background-color: $color1;
+        
+    }
+    @else if $artista == Covaleda{
+        background-color:$color3;
+    }
+}
+$artista: Covaleda;
+#cuadro2{
+    @if $artista == Suarez{
+        background-color: $color1;
+        
+    }
+    @else if $artista == Covaleda{
+        background-color:$color3;
+    }
+}
+$artista: Covaleda;
+#cuadro3{
+    @if $artista == Suarez{
+        background-color:$color1;
+        
+    }
+    @else if $artista == Covaleda{
+        background-color: $color3;
+    }
+}
+$artista: Suarez;
+#cuadro4{
+    @if $artista == Suarez{
+        background-color:$color1;
+        
+    }
+    @else if $artista == Covaleda{
+        background-color: $color3;
+    }
+}
+$artista: Suarez;
+#cuadro5{
+    @if $artista == Suarez{
+        background-color:$color1;
+        
+    }
+    @else if $artista == Covaleda{
+        background-color: $color3;
+    }
+}

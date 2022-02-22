@@ -1,0 +1,59 @@
+.terrazas {
+    width: auto;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    #secTerrazas {
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Luxurious Roman', cursive;
+        color: gold;
+    }
+}
+
+.divTerrazas1{
+    .pTerrazas {
+        color: white;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    h3 {
+        font-size: xx-large;
+        color: silver;
+        text-align: start;
+        padding: 10px;
+    }
+
+}
+
+.contenedorTerrazas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    .artTerrazas {
+        display: flex;
+    }
+    .imgTerrazas {
+        width: 350px;
+        height: 200px;
+        padding: 20px;
+    }
+    .terrazaNombre {
+        color: gold;
+        padding-left: 15px;
+        font-size: x-large;
+        width: 10%;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
