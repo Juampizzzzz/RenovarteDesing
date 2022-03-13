@@ -1,17 +1,19 @@
-
 .formuRegis {
     width: 100%;
     height: auto;
-    .registrate{
-        background-image:url(../imagenes/sillonportada.jpg);
+
+    .registrate {
+        background-image: url(../imagenes/sillonportada.jpg);
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
         padding: 20px;
+
         .Leyenda {
             color: rgb(0, 0, 0);
-            font-size:large;
+            font-size: large;
         }
+
         label {
             font-size: 25px;
             font-weight: bold;
