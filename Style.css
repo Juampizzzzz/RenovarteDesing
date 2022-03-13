@@ -509,6 +509,11 @@ article .sillon1 {
   flex-direction: column;
 }
 
+.contenedorTerrazas .artTerrazas .pTerrazas1 {
+  color: white;
+  padding-left: 5%;
+}
+
 .contenedorTerrazas .imgTerrazas {
   width: 350px;
   height: 200px;
