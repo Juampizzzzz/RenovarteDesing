@@ -586,21 +586,21 @@ article .sillon1 {
 }
 
 .alf4-icon {
-  background-image: url(../imagenes/alf4.jpg);
+  background-image: url("./imagenes/alf4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .alf2-icon {
-  background-image: url(../imagenes/alf2.jpg);
+  background-image: url("./imagenes/alf2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .alf3-icon {
-  background-image: url(../imagenes/alf3.jpg);
+  background-image: url("./imagenes/alf3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

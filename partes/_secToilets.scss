@@ -39,7 +39,7 @@
 }
 @each $alfombra in alf4, alf2, alf3 {
     .#{$alfombra}-icon {
-        background-image: url(../imagenes/#{$alfombra}.jpg);
+        background-image: url("./imagenes/#{$alfombra}.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
