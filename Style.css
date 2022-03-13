@@ -545,62 +545,29 @@ article .sillon1 {
   background-color: #f1dade;
 }
 
-.toilets-1 {
-  width: 15em;
-  font-size: 30px;
-}
-
-.toilets-2 {
-  width: 30em;
-  font-size: 30px;
-}
-
-.toilets-3 {
-  width: 45em;
-  font-size: 30px;
-}
-
-.bucle1 {
-  font-size: 50px;
-  background-color: #1aff1a;
-  border: solid 2px black;
-}
-
-.bucle2 {
-  font-size: 50px;
-  background-color: #b3ffb3;
-  border: solid 2px black;
-}
-
-.bucle3 {
-  font-size: 50px;
-  background-color: white;
-  border: solid 2px black;
-}
-
-.alfImg {
+.toiImg {
   width: 40%;
   height: 300px;
-  background-color: crimson;
+  background-color: #bdf1e8;
   border: solid black 3px;
 }
 
-.alf4-icon {
-  background-image: url("./imagenes/alf4.jpg");
+.toi1 {
+  background-image: url("./imagenes/toi1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.alf2-icon {
-  background-image: url("./imagenes/alf2.jpg");
+.toi2 {
+  background-image: url("./imagenes/toi2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.alf3-icon {
-  background-image: url("./imagenes/alf3.jpg");
+.toi3 {
+  background-image: url("./imagenes/toi3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
