@@ -506,6 +506,7 @@ article .sillon1 {
 
 .contenedorTerrazas .artTerrazas {
   display: flex;
+  flex-direction: column;
 }
 
 .contenedorTerrazas .imgTerrazas {
