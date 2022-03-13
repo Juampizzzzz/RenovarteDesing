@@ -44,7 +44,6 @@ body {
 }
 
 #navbarNavDropdown {
-  display: flex;
   justify-content: end;
 }
 
