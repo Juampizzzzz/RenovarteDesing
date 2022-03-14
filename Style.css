@@ -379,7 +379,7 @@ article .sillon1 {
 }
 
 .Contactanosfondo {
-  background-image: url("../imagenes/fondoMulticolor.jpg");
+  background-image: url("./imagenes/fondoMulticolor.jpg");
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
