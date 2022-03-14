@@ -379,8 +379,11 @@ article .sillon1 {
 }
 
 .Contactanosfondo {
-  background-image: linear-gradient(pink, violet, purple);
+  background-image: url("../imagenes/fondoMulticolor.jpg");
   padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .Contactanosfondo input:focus {
@@ -393,7 +396,7 @@ article .sillon1 {
 }
 
 .formuRegis .registrate {
-  background-image: url("../imagenes/sillonportada.jpg");
+  background-image: url("../imagenes/registrateee.jpg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;

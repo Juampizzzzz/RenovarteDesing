@@ -1,8 +1,11 @@
 
 
 .Contactanosfondo {
-    background-image: linear-gradient(pink, violet, purple);
+    background-image:url("../imagenes/fondoMulticolor.jpg");
     padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     input{
         &:focus {
         font-size: xx-large;
