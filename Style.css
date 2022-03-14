@@ -545,6 +545,18 @@ article .sillon1 {
   background-color: #f1dade;
 }
 
+.subTituloToilets {
+  font-size: xx-large;
+  color: white;
+  text-align: start;
+  padding: 10px;
+}
+
+.pToilets {
+  color: white;
+  padding-left: 3%;
+}
+
 .toiImg {
   width: 50%;
   height: 300px;
