@@ -396,7 +396,7 @@ article .sillon1 {
 }
 
 .formuRegis .registrate {
-  background-image: url("../imagenes/registrateee.jpg");
+  background-image: url("./imagenes/registrateee.jpg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
